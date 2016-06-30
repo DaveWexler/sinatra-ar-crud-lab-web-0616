@@ -1,0 +1,8 @@
+<h1>Blog posts:</h1>
+
+<p><%= @deleted %> was deleted</p>
+
+<% @all_posts.each do |post| %>
+  <%= post.name %>
+  <%= post.content %>
+<% end %>
